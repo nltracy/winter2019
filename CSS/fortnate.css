@@ -1,3 +1,24 @@
 body {
-	background-color: linear-gradient(to right blue, lightblue, blue)
+	background-image: linear-gradient(to right, #4c51f7, #9d4dbb, #4c51f7);
+	font-family: BurbankBigCondensed, courier;
 	}
+
+@font-face {
+  font-family: BurbankBigCondensed; 
+  src: url(burbankbigcondensed-bold.otf);
+  }
+
+	
+h1 {
+	color: #f3af19;
+}
+
+p {
+	color: white;
+}
+.maintitle {
+	font-family: BurbankBigCondensed;
+	text-align: center;
+	text-size: 75px;
+
+}
